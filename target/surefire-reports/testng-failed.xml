@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test_SelectableTests(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests_for_interactions.SelectableTests">
+        <methods>
+          <include name="launchurl"/>
+          <include name="clickoninteractions"/>
+          <include name="selectoptionnormally"/>
+          <include name="clickonselectable"/>
+        </methods>
+      </class> <!-- tests_for_interactions.SelectableTests -->
+    </classes>
+  </test> <!-- Test_SelectableTests(failed) -->
+  <test thread-count="5" name="Test_ResizableTests(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests_for_interactions.ResizableTests">
+        <methods>
+          <include name="resizeboxexample"/>
+          <include name="clickoninteractions"/>
+          <include name="launchurl"/>
+          <include name="clickonresizableoption"/>
+        </methods>
+      </class> <!-- tests_for_interactions.ResizableTests -->
+    </classes>
+  </test> <!-- Test_ResizableTests(failed) -->
+  <test thread-count="5" name="Test_DroppableTests(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests_for_interactions.DroppableTests">
+        <methods>
+          <include name="clickoninteractions"/>
+          <include name="movedroopableemelement"/>
+          <include name="launchurl"/>
+          <include name="clickondroppableoption"/>
+        </methods>
+      </class> <!-- tests_for_interactions.DroppableTests -->
+    </classes>
+  </test> <!-- Test_DroppableTests(failed) -->
+  <test thread-count="5" name="Test_DraggableTests(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests_for_interactions.DraggableTests">
+        <methods>
+          <include name="clickondraggableoption"/>
+          <include name="launchurl"/>
+          <include name="movedraggablecursor"/>
+          <include name="clickoninteractions"/>
+        </methods>
+      </class> <!-- tests_for_interactions.DraggableTests -->
+    </classes>
+  </test> <!-- Test_DraggableTests(failed) -->
+  <test thread-count="5" name="Test_SortableTests(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests_for_interactions.SortableTests">
+        <methods>
+          <include name="sortnamelistbygetetxtmethod"/>
+          <include name="clickoninteractions"/>
+          <include name="launchurl"/>
+          <include name="clickonsortable"/>
+        </methods>
+      </class> <!-- tests_for_interactions.SortableTests -->
+    </classes>
+  </test> <!-- Test_SortableTests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+ 
+  <test thread-count="5" name="Test_SelectableTests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests_for_interactions.SelectableTests"/>
+    </classes>
+  </test> <!-- Test_SelectableTests -->
+
+  <test thread-count="5" name="Test_ResizableTests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests_for_interactions.ResizableTests"/>
+    </classes>
+  </test> <!-- Test_ResizableTests -->
+
+  <test thread-count="5" name="Test_DroppableTests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests_for_interactions.DroppableTests"/>
+    </classes>
+  </test> <!-- Test_DroppableTests -->
+
+  <test thread-count="5" name="Test_DraggableTests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests_for_interactions.DraggableTests"/>
+    </classes>
+  </test> <!-- Test_DraggableTests -->
+
+  <test thread-count="5" name="Test_SortableTests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests_for_interactions.SortableTests"/>
+    </classes>
+  </test> <!-- Test_SortableTests -->
+
+</suite> <!-- Suite -->
