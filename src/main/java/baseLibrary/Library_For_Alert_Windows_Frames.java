@@ -49,6 +49,7 @@ public class Library_For_Alert_Windows_Frames implements ExcelUtility, PropertyU
         } else if (browser.equalsIgnoreCase("edge")) {
             WebDriverManager.edgedriver().setup(); // Automatically download and set up EdgeDriver
             driver = new EdgeDriver();
+            System.out.println("browser open succesfully");
         }
 
         driver.get("https://testingbaba.com/old/");
